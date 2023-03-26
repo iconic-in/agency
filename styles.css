@@ -1,0 +1,148 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    
+    
+  }
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+.topbar {
+  box-sizing: border-box;
+  background-color: #212121;
+
+  overflow: hidden;
+  padding: 10px 5%;
+}
+
+.fa-brands {
+  float: left;
+  color: #dee;
+  padding: 5px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+.fa-solid {
+  float: left;
+  color: #8dc63e;
+  padding-left: 800px;
+  padding-top: 5px;
+  padding-right: 189px;
+}
+
+.nav {
+  background-color: white;
+  height: 75px;
+  padding: 0px 5%;
+}
+
+h1.logo {
+  font-family: "Roboto Slab", serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 25%;
+  padding: 0px;
+  margin-top: 15px;
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 15px;
+  padding: 0px;
+  overflow: hidden;
+  width: 75%;
+  float: left;
+}
+li {
+  float: right;
+}
+
+li a {
+  text-align: center;
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: black;
+}
+
+.hero {
+  background-color: #8dc63e;
+  height: 400px;
+  padding: 0px;
+  margin: 0px;
+}
+
+h1.text {
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+pre {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+.readmore {
+  text-align: center;
+  color: black;
+  border-radius: 5px;
+
+  background-color: #febd19;
+  text-transform: uppercase;
+}
+.readmore h1 {
+  text-align: center;
+}
+
+.section1 {
+  margin-top: 20px;
+}
+h1.our{
+    text-align: center;
+    color: #658E18;
+}
+
+p.text2{
+    text-align: center;
+    font-size: 19px;
+}
+.bulb1{
+    height: 200px;
+    background-color: #fff7f7;
+    border-radius:50px ;
+    
+    
+    
+}
+
+.star{
+    height: 120px;
+    background-color: red;
+    border-radius: 50px;
+}
+
+#footer{
+    background-color: #658E18;
+    height: 350px;
+}
